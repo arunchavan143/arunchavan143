@@ -1,18 +1,123 @@
 # 💫 About Me:
-I focus on manual and automated web application security testing, <br>OWASP Top 10 vulnerabilities, and vulnerability assessment & penetration testing (VAPT).<br>
+```diff
++ Offensive Security Enthusiast | Web Application & API Pentesting
+```
 
+I focus on **Web Application Security**, **API Security Testing**, and **Offensive Security Research** with hands-on experience in:
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/x_aryan_1430) 
+- 🔥 OWASP Top 10 & API Top 10
+- 🔐 Authentication & Authorization Testing
+- ⚡ JWT / OAuth Security
+- 🧠 Business Logic Vulnerabilities
+- 🌐 API Pentesting & Request Manipulation
+- 🛠️ Burp Suite Workflow & Manual Testing
+- 🐍 Python Security Automation
+- 🚀 Vulnerability Assessment & Penetration Testing (VAPT)
 
-# 💻 Tech Stack:
-![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=arunchavan143&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=arunchavan143&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=arunchavan143&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+Currently improving skills through:
+- PortSwigger Web Security Academy Labs
+- Real-world VAPT Practice
+- API Security Research
+- Security Tool Development
+- Bug Bounty Methodologies
 
 ---
-[![](https://visitcount.itsvg.in/api?id=arunchavan143&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+# 🌐 Connect With Me:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_LINK)
+[![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arunchavan143)
+
+---
+
+# ⚔️ Offensive Security Stack:
+
+### 🧰 Pentesting & Security Tools
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-ff6f00?style=for-the-badge&logo=burpsuite&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-00457C?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+### 💻 Programming & Automation
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Bash](https://img.shields.io/badge/Bash_Scripting-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+
+### 🖥️ Operating Systems
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white)
+
+### ☁️ Cloud & Databases
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+---
+
+# 📂 Current Projects:
+
+## 🔐 TLS Security Scanner
+Python-based SSL/TLS security assessment tool for detecting:
+- Weak protocols
+- Insecure ciphers
+- Certificate misconfigurations
+- Forward secrecy issues
+
+---
+
+## 🌐 API Pentest Notes
+Structured methodology notes covering:
+- JWT Testing
+- IDOR
+- Mass Assignment
+- Authorization Flaws
+- Business Logic Testing
+
+---
+
+## 🧪 PortSwigger Writeups
+Documenting practical labs and exploitation methodologies for:
+- SSRF
+- XXE
+- Request Smuggling
+- OAuth
+- JWT
+- Authentication Bypass
+
+---
+
+# 📊 GitHub Stats:
+
+![](https://github-readme-stats.vercel.app/api?username=arunchavan143&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+
+![](https://nirzak-streak-stats.vercel.app/?user=arunchavan143&theme=tokyonight&hide_border=true)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=arunchavan143&theme=tokyonight&hide_border=true&layout=compact)
+
+---
+
+# 🧠 Current Focus:
+```yaml
+- API Security Testing
+- Business Logic Vulnerabilities
+- HTTP Request Smuggling
+- JWT/OAuth Security
+- Python Automation for VAPT
+- Bug Bounty Methodologies
+```
+
+---
+
+# 🚀 Goals:
+- Build advanced offensive security tooling
+- Contribute to the cybersecurity community
+- Specialize in Web & API Security
+- Work remotely in Offensive Security / AppSec
+- Grow through real-world pentesting & research
+
+---
+
+![](https://visitcount.itsvg.in/api?id=arunchavan143&icon=5&color=6)
+
+```diff
++ "Hack. Learn. Break. Secure. Repeat."
+```
