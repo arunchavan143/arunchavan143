@@ -1,4 +1,5 @@
-<div align="center">
+
+readme = '''<div align="center">
 
 ```
 ██████╗  ██████╗  ██████╗ ████████╗@  ██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ ███████╗
@@ -151,18 +152,10 @@ STATUS     = "[ACTIVE] — SOC Ready"
 
 ---
 
-## 🏆 Trophy Case
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=arunchavan143&theme=matrix&no-frame=true&no-bg=true&margin-w=4&row=1&column=6" />
-</p>
-
----
-
 ## 📊 Operational Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arunchavan143&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&border_radius=10" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=arunchavan143&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&border_radius=10" height="180"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=arunchavan143&theme=chartreuse-dark&hide_border=true&background=0d1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideNums=00FF41&sideLabels=c9d1d9&dates=c9d1d9&border_radius=10" height="180"/>
 </p>
 
@@ -175,7 +168,7 @@ STATUS     = "[ACTIVE] — SOC Ready"
 ## 🐍 Contribution Graph
 
 <p align="center">
-  <img src="https://github.com/arunchavan143/arunchavan143/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/arunchavan143/arunchavan143/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 ---
@@ -183,7 +176,7 @@ STATUS     = "[ACTIVE] — SOC Ready"
 ## 🌐 3D Contribution Calendar
 
 <p align="center">
-  <img src="https://github.com/arunchavan143/arunchavan143/blob/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" />
+  <img src="https://raw.githubusercontent.com/arunchavan143/arunchavan143/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" />
 </p>
 
 ---
@@ -230,3 +223,9 @@ objectives:
 ```
 
 </div>
+'''
+
+with open('/mnt/agents/output/README.md', 'w', encoding='utf-8') as f:
+    f.write(readme)
+
+print("File saved!")
