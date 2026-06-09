@@ -1,187 +1,232 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=VT323&size=28&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=800&lines=root@arun:~$+whoami;SOC+Analyst+%7C+Threat+Intelligence;Web+%26+API+Pentesting;Python+Security+Automation;Hack+%E2%80%A2+Learn+%E2%80%A2+Analyze+%E2%80%A2+Exploit+%E2%80%A2+Secure" />
+```
+██████╗  ██████╗  ██████╗ ████████╗@  ██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ ███████╗
+██╔══██╗██╔═══██╗██╔═══██╗╚══██╔══╝   ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗██╔════╝
+██████╔╝██║   ██║██║   ██║   ██║      ███████║███████║██║     █████╔╝ █████╗  ██████╔╝███████╗
+██╔══██╗██║   ██║██║   ██║   ██║      ██╔══██║██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗╚════██║
+██║  ██║╚██████╔╝╚██████╔╝   ██║      ██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║███████║
+╚═╝  ╚═╝ ╚═════╝  ╚═════╝    ╚═╝      ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+```
+
+<img src="https://readme-typing-svg.herokuapp.com?font=VT323&size=24&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=800&lines=root%40arun%3A~%24+whoami;%5B+SOC+Analyst+%26+Threat+Hunter+%5D;%5B+Web+%26+API+Pentester+%5D;%5B+Python+Security+Automation+%5D;%5B+OWASP+Top+10+%7C+API+Top+10+%5D;%5B+Breaking+Things+to+Secure+Them+%5D" />
 
 </div>
 
 ---
 
-# 💀 SYSTEM INTRUSION — TARGET PROFILE
+## `$ cat /etc/profile.d/arun.conf`
 
 ```bash
-┌──(root@arun)-[~/recon]
-└─$ cat /etc/passwd | grep arun
+root@arun:~$ id
+uid=1337(arun) gid=1337(security) groups=1337(security),0(root),31337(offensive)
 
-arun:x:1337:1337:SOC+Analyst+%7C+Offensive+Security+Specialist:/home/arun:/bin/bash
+root@arun:~$ cat about.txt
+┌─────────────────────────────────────────────────────┐
+│  NAME    : Arun Chavan                              │
+│  ROLE    : SOC Analyst | Offensive Security         │
+│  BASE    : India                                    │
+│  FOCUS   : Threat Hunting • Web/API Pentesting      │
+│  TOOLS   : Burp Suite • Python • Wireshark • Nmap   │
+│  STATUS  : [ HUNTING THREATS & BUGS ]               │
+└─────────────────────────────────────────────────────┘
 ```
-
-**Primary Directives:**
-- 🚨 SOC Operations — Threat Detection, Incident Response, Phishing Investigation
-- 🌐 Web Application & API Penetration Testing
-- 🐍 Python-based Security Automation & Tooling
-- 🧠 Vulnerability Research & Exploit Development
-- 🕵️ OSINT & Threat Intelligence Analysis
 
 ---
 
-# 🎯 ACTIVE OPERATIONS
+## `$ cat /var/log/soc/skills.log`
+
+```diff
++ [ACTIVE]   SOC Alert Triage & Incident Investigation
++ [ACTIVE]   Threat Hunting & IOC Correlation
++ [ACTIVE]   Phishing Email Analysis & Infrastructure Takedown
++ [ACTIVE]   Log Analysis & SIEM Correlation
++ [ACTIVE]   Network Traffic Forensics & PCAP Analysis
++ [ACTIVE]   Web Application Pentesting
++ [ACTIVE]   API Security Testing (JWT, OAuth, IDOR)
++ [ACTIVE]   Python Security Tool Development
++ [LEARNING] Advanced Red Team Operations
++ [LEARNING] Cloud Security (AWS)
+```
+
+---
+
+## `$ cat targets.txt`
 
 ```yaml
-Current_Mission:
-  status: ACTIVE
-  clearance: SOC_L1 + VAPT_TRAINEE
-  objectives:
-    - SOC Investigation & Alert Triage
-    - Threat Hunting & IOC Correlation
-    - Phishing Infrastructure Analysis & Takedown
-    - API Security Testing (JWT, OAuth, Mass Assignment, IDOR)
-    - Business Logic Abuse & Workflow Bypass
-    - HTTP Request Smuggling
-    - Security Automation & Tool Development
+attack_surface:
+  web_security:
+    - XSS • SQLi • SSRF • XXE • IDOR • CSRF
+    - Authentication & Authorization Bypass
+    - Business Logic Vulnerabilities
+  api_security:
+    - JWT / OAuth Exploitation
+    - Mass Assignment • BOLA • BFLA
+    - API Recon & Enumeration
+  soc_operations:
+    - Threat Hunting & Behavioral Analytics
+    - Phishing Investigation & OSINT
+    - Network Traffic Analysis
+    - Log Analysis & Incident Response
+    - IOC Enrichment & Threat Intelligence
+  automation:
+    - Python Security Tooling
+    - Bash Scripting & Workflows
+    - Node.js SOC Applications
 ```
 
 ---
 
-# 🛠️ ARSENAL
+## `$ ls -la /opt/tools/`
 
-## 🔍 Pentesting & Recon
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6F00?style=for-the-badge&logo=burpsuite&logoColor=white)
+### Pentesting & Recon
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6300?style=for-the-badge&logo=burpsuite&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-00457C?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white)
 
-## 💻 Development & Automation
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+### Languages & Automation
+![Python](https://img.shields.io/badge/Python-00FF41?style=for-the-badge&logo=python&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-1a1a1a?style=for-the-badge&logo=gnu-bash&logoColor=00FF41)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![JavaScript](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
 
-## 🖥️ Platforms & OS
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Windows Terminal](https://img.shields.io/badge/Windows-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white)
+### Platforms
+![Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 ---
 
-# 🚨 SOC & THREAT INTELLIGENCE
+## `$ ls /projects/ --color=always`
 
-```diff
-+ SOC Alert Triage & Incident Investigation
-+ Threat Hunting & Behavioral Analytics
-+ Phishing Email Analysis & Infrastructure Mapping
-+ Log Analysis & SIEM Correlation (Splunk, ELK)
-+ Network Traffic Forensics & PCAP Analysis
-+ IOC Analysis & Threat Intelligence Enrichment
-+ Basic Malware Analysis & Reverse Engineering
-+ Security Monitoring & Detection Engineering
+### [PhishShield](https://github.com/arunchavan143/phishshield) — Phishing Investigation Dashboard
+
+```
+drwxr-xr-x  arun  security  PhishShield/
 ```
 
+> SOC-style phishing forensics tool. Analyzes suspicious URLs using risk scoring, redirect chain mapping, entropy analysis, and domain intelligence.
+
+```python
+TECH_STACK = ["Python", "Streamlit", "Plotly", "NetworkX", "DNS/WHOIS"]
+FEATURES   = ["Risk Score Engine", "Redirect Graph", "Entropy Analysis", "GeoIP Intel"]
+STATUS     = "[ACTIVE] — SOC Ready"
+```
+
+[![View Repo](https://img.shields.io/badge/View_Repo-00FF41?style=for-the-badge&logo=github&logoColor=black)](https://github.com/arunchavan143/phishshield)
+
 ---
 
-# 🧪 VULNERABILITY RESEARCH MATRIX
+### [ThreatIntelWorkbench](https://github.com/arunchavan143/ThreatIntelWorkbench) — SOC IOC Investigation Platform
 
-| Attack Surface | Techniques |
+```
+drwxr-xr-x  arun  security  ThreatIntelWorkbench/
+```
+
+> Multi-source threat intelligence aggregator for IPs, domains, and file hashes. Integrates VirusTotal, AbuseIPDB, Shodan, OTX, URLScan with weighted risk scoring.
+
+```javascript
+TECH_STACK = ["Node.js", "Express", "Jest", "Docker"]
+INTEL_FEEDS = ["VirusTotal", "AbuseIPDB", "Shodan", "OTX", "URLScan", "MalwareBazaar"]
+FEATURES   = ["Risk Scoring", "Audit Logging", "Caching", "Rate Limiting", "Docker"]
+STATUS     = "[ACTIVE] — SOC Ready"
+```
+
+[![View Repo](https://img.shields.io/badge/View_Repo-00FF41?style=for-the-badge&logo=github&logoColor=black)](https://github.com/arunchavan143/ThreatIntelWorkbench)
+
+---
+
+## `$ cat training_grounds.txt`
+
+| Platform | Mission |
 |---|---|
-| 🌐 Web Security | XSS, SQLi, SSRF, XXE, IDOR, LFI/RFI, CSRF |
-| 🔐 API Security | Broken Auth, JWT Exploitation, Mass Assignment, BOLA, Excessive Data Exposure |
-| ⚡ Logic Bugs | Workflow Abuse, Race Conditions, State Manipulation, Price Manipulation |
-| 🌍 Network | Traffic Analysis, Protocol Abuse, MiTM, Port Scanning |
-| 🚨 SOC | Threat Detection, IOC Hunting, Phishing Analysis, Log Forensics |
-| 🧠 OSINT | Reconnaissance, Phishing Infrastructure Mapping, Domain Intelligence |
+| PortSwigger Academy | Web Application Exploitation |
+| OWASP Juice Shop | Realistic VAPT Practice |
+| TryHackMe | Networking & SOC Fundamentals |
+| Hack The Box | Offensive Security Challenges |
 
 ---
 
-# 📂 DEPLOYED TOOLS
-
-> *Live repositories with active code. Click to inspect.*
-
-## 🛡️ [PhishShield](https://github.com/arunchavan143/phishshield)
-**SOC Phishing Investigation Dashboard**
-- URL risk scoring engine with visual gauge meter
-- Redirect chain graph analysis (NetworkX)
-- Domain intelligence: IP, ASN, geolocation, WHOIS
-- Entropy-based domain anomaly detection
-- Suspicious keyword & TLD analysis
-- **Stack:** Python · Streamlit · Plotly · NetworkX · DNS/WHOIS
-
-## 🧠 [ThreatIntelWorkbench](https://github.com/arunchavan143/ThreatIntelWorkbench)
-**Multi-Source IOC Enrichment Platform**
-- Aggregates VirusTotal, AbuseIPDB, Shodan, OTX, URLScan, MalwareBazaar
-- Weighted threat scoring (LOW → CRITICAL)
-- Server-side validation, rate limiting, Helmet security headers
-- Audit logging & operational metrics
-- Docker-ready with Jest/Supertest coverage
-- **Stack:** Node.js · Express · JavaScript · Docker
-
----
-
-# 🚧 PAYLOADS IN DEVELOPMENT
-
-> *Projects under active construction. ETA: Coming to a repo near you.*
-
-| Project | Status | Description |
-|---|---|---|
-| 🔐 TLS Security Scanner | `BUILDING` | SSL/TLS config analyzer — weak ciphers, cert expiry, forward secrecy |
-| 🌐 API Pentest Notes | `BUILDING` | Structured methodology: JWT, IDOR, Mass Assignment, Recon |
-| 🧪 PortSwigger Writeups | `BUILDING` | Lab solutions: SSRF, XXE, OAuth, JWT, Request Smuggling |
-
----
-
-# 📚 TRAINING GROUNDS
-
-| Platform | Status | Focus |
-|---|---|---|
-| [PortSwigger Academy](https://portswigger.net/web-security) | 🟢 Active | Web Security & Advanced Topics |
-| [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) | 🟢 Active | Realistic VAPT Scenarios |
-| [TryHackMe](https://tryhackme.com) | 🟢 Active | Networking & SOC Fundamentals |
-| [Hack The Box](https://hackthebox.com) | 🟡 Rotating | Offensive Security Labs |
-
----
-
-# 🌐 C2 CHANNELS (CONTACT)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arun-chawan-4a3356362/)
-[![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arunchavan143)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arunchavan143@protonmail.com)
-
----
-
-# 📊 OPERATIONAL METRICS
+## 🏆 Trophy Case
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arunchavan143&show_icons=true&theme=merko&hide_border=true&count_private=true&title_color=00FF41&icon_color=00FF41&text_color=ffffff" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arunchavan143&theme=merko&hide_border=true&ring=00FF41&fire=00FF41&currStreakLabel=00FF41" height="180"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arunchavan143&layout=compact&theme=merko&hide_border=true&title_color=00FF41&text_color=ffffff"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=arunchavan143&theme=matrix&no-frame=true&no-bg=true&margin-w=4&row=1&column=6" />
 </p>
 
 ---
 
-# 🎯 MISSION OBJECTIVES
+## 📊 Operational Metrics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=arunchavan143&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&border_radius=10" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arunchavan143&theme=chartreuse-dark&hide_border=true&background=0d1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideNums=00FF41&sideLabels=c9d1d9&dates=c9d1d9&border_radius=10" height="180"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arunchavan143&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9&border_radius=10"/>
+</p>
+
+---
+
+## 🐍 Contribution Graph
+
+<p align="center">
+  <img src="https://github.com/arunchavan143/arunchavan143/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
+---
+
+## 🌐 3D Contribution Calendar
+
+<p align="center">
+  <img src="https://github.com/arunchavan143/arunchavan143/blob/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" />
+</p>
+
+---
+
+## `$ cat /proc/goals/objectives.yml`
 
 ```yaml
-Objectives:
-  - [ ] Build advanced offensive security tools
-  - [ ] Specialize in Web & API Security
-  - [ ] Enhance threat hunting & SOC capabilities
-   [ ] Secure remote offensive security / SOC role
-  - [ ] Contribute to cybersecurity research
-  - [ ] Achieve real-world VAPT & SOC mastery
+objectives:
+  short_term:
+    - Ship TLS Security Scanner tool
+    - Publish PortSwigger lab writeups
+    - Complete eJPT certification
+  long_term:
+    - Specialize in Web & API Security
+    - Contribute to open-source security tooling
+    - Land a role in Offensive Security / Red Team
+    - Work remotely on real-world VAPT & SOC ops
 ```
+
+---
+
+## `$ ping -c1 arun`
+
+<p align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arun-chawan-4a3356362/)
+[![GitHub](https://img.shields.io/badge/GitHub-00FF41?style=for-the-badge&logo=github&logoColor=black)](https://github.com/arunchavan143)
+
+</p>
 
 ---
 
 <div align="center">
 
-```diff
-+ [████████████████░░░░░░░░░░░░░░░░░░░░] 35% COMPLETE
-```
+![](https://visitcount.itsvg.in/api?id=arunchavan143&icon=5&color=6)
 
-*Hack. Learn. Analyze. Exploit. Secure. Repeat.*
+```
+┌──────────────────────────────────────────────────┐
+│                                                  │
+│   Hack • Learn • Analyze • Exploit • Secure      │
+│         [ REPEAT UNTIL HIRED ]                   │
+│                                                  │
+└──────────────────────────────────────────────────┘
+```
 
 </div>
