@@ -167,7 +167,7 @@ STATUS     = "[ACTIVE] — SOC Ready"
 ## 🐍 Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/arunchavan143/arunchavan143/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/arunchavan143/arunchavan143/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
 
 ---
@@ -175,7 +175,7 @@ STATUS     = "[ACTIVE] — SOC Ready"
 ## 🌐 3D Contribution Calendar
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/arunchavan143/arunchavan143/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" />
+  <img src="https://raw.githubusercontent.com/arunchavan143/arunchavan143/main/profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Calendar" />
 </p>
 
 ---
