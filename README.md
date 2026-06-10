@@ -164,10 +164,8 @@ STATUS     = "[ACTIVE] — SOC Ready"
 
 ---
 
-## 🐍 Contribution Graph
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/arunchavan143/arunchavan143/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <img width="100%" src="https://raw.githubusercontent.com/arunchavan143/arunchavan143/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
 
 ---
